@@ -1,18 +1,34 @@
-# FinalProject
+# FinalProject - Book Tracking Library
 # Book Tracker
 
-## Problem Solved
-My program allows its user to save books they want to read and books they have read to separate lists that continues to save data between each use. Additionally, this program allows management of book lists, allowing the user to remove books from saved data lists. This program also utilizes input validation and exception handling.
+## Project description & Features
+This Book Tracking Library is a Java based program that allows users to manage and organize their book collection!
+* Allows user to add books they want to read
+* Allows user to mark their book as read
+* View both reading and read lists (saved)
+* Continues to save data between uses
+* Your data will be saved in the `reading.txt` and `read.txt`
+* Promotes management of books allowing user to remove title from saved data lists
 
-## Features
-- Add the books you want to read
-- Mark your books as read
-- View both your reading and read lists (saved)
-- Remove books from either lists
-- Your data will be saved in the `reading.txt` and `read.txt`
-- Uses arrays for read, uses ArrayLists for "to read", uses recursion for the inputvalidator, uses file persistence to save txt files to reference again, and uses try-catch (checekd exception)
+## Examples of Use
+1. Option 1 prompts user to enter book title and add to 'To Read" list.
+2. Option 2 allows user to mark book as read
+3. Option 3 Displays your book lists (read) & (to read)
+4. Option 4 allows user to remove book from 'to read' list
+5. Option 5 Allows user to exit program and simultaneously saves data
 
 ## How to Run
-1. Enter the repo link, open GitHub & run codespace.
-2. Run the program by using Github website or application.
-3. Follow the promts to experience the program! P.S. error message on first run until you save data 
+1. Ensure Java Development Kit (JDK) 8 or later is installed.
+2. Compile the program with: javac *.java
+3. Run the program with: java Runner
+
+## Known Limitations
+1. Book Library has limit of 100 books
+2. Error message runs with first program use 
+3. Error message not resolved until 1st data save
+
+## Future Improvements
+1. Add Search Feature 
+2. Add Rating Feature
+3. Display Books based on rating 
+4. Add genre sorting
